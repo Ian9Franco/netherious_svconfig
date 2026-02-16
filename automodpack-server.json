@@ -1,0 +1,43 @@
+{
+    "DO_NOT_CHANGE_IT": 2,
+    "modpackName": "Netherious",
+    "modpackHost": false,
+    "modpackUrl": "https://github.com/Ian9Franco/netherious_svconfig/releases/latest/download/modpack.zip",
+    "generateModpackOnStart": false,
+    "syncedFiles": [
+        "!/kubejs/server_scripts/**",
+        "/mods/*.jar",
+        "/kubejs/**",
+        "/emotes/*",
+        "/config/resourcepackoverrides.json",
+        "/config/defaultoptions/**",
+        "/resourcepacks/*.zip"
+    ],
+    "allowEditsInFiles": [
+        "/config/**",
+        "/options.txt"
+    ],
+    "forceCopyFilesToStandardLocation": [],
+    "nonModpackFilesToDelete": {},
+    "autoExcludeServerSideMods": true,
+    "autoExcludeUnnecessaryFiles": true,
+    "requireAutoModpackOnClient": true,
+    "nagUnModdedClients": true,
+    "nagMessage": "This server provides dedicated modpack through AutoModpack!",
+    "nagClickableMessage": "Click here to get the AutoModpack!",
+    "nagClickableLink": "https://modrinth.com/project/automodpack",
+    "bindAddress": "",
+    "bindPort": -1,
+    "addressToSend": "",
+    "portToSend": -1,
+    "disableInternalTLS": false,
+    "requireMagicPackets": false,
+    "updateIpsOnEveryStart": false,
+    "bandwidthLimit": 0,
+    "validateSecrets": true,
+    "secretLifetime": 336,
+    "selfUpdater": false,
+    "acceptedLoaders": [
+        "forge"
+    ]
+}
