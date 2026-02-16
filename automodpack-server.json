@@ -11,7 +11,8 @@
         "/emotes/*",
         "/config/resourcepackoverrides.json",
         "/config/defaultoptions/**",
-        "/resourcepacks/*.zip"
+        "/resourcepacks/*.zip",
+        "/shaderpacks/*.zip"
     ],
     "allowEditsInFiles": [
         "/config/**",
