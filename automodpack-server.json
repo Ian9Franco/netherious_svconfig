@@ -1,7 +1,7 @@
 {
     "DO_NOT_CHANGE_IT": 2,
     "modpackName": "Netherious",
-    "modpackHost": false,
+    "modpackHost": true,
     "modpackUrl": "https://github.com/Ian9Franco/netherious_svconfig/releases/latest/download/modpack.zip",
     "generateModpackOnStart": false,
     "syncedFiles": [
