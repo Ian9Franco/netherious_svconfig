@@ -2,3 +2,13 @@ modpack.zip
 *.log
 .DS_Store
 Thumbs.db
+
+# Ignorar binarios pesados (se gestionan vía Release ZIP)
+Netherious-Modpack/mods/*
+!Netherious-Modpack/mods/.gitkeep
+
+Netherious-Modpack/resourcepacks/*
+!Netherious-Modpack/resourcepacks/.gitkeep
+
+Netherious-Modpack/shaderpacks/*
+!Netherious-Modpack/shaderpacks/.gitkeep
