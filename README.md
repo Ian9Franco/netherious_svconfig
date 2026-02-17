@@ -23,5 +23,13 @@ Asegúrate de que el archivo `automodpack-server.json` en tu servidor apunte a e
 }
 ```
 
+## Herramientas de Automatización
+He incluido un script llamado `sync_modpack.py` que facilita la recolección de mods desde tu carpeta de trabajo local (`D:\.mine\...`) hacia este repositorio, aplicando automáticamente las reglas de exclusión que definimos.
+
+Para usarlo:
+1. Asegúrate de tener Python instalado.
+2. Ejecuta: `python sync_modpack.py`
+3. El script copiará los .jar permitidos y te preguntará si quieres generar el `modpack.zip` al finalizar.
+
 ---
 *Generado automáticamente para el servidor Netherious.*

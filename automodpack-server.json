@@ -12,7 +12,9 @@
         "/config/resourcepackoverrides.json",
         "/config/defaultoptions/**",
         "/resourcepacks/*.zip",
-        "/shaderpacks/*.zip"
+        "/shaderpacks/*.zip",
+        "/modlist.html",
+        "/netherious.ico"
     ],
     "allowEditsInFiles": [
         "/config/**",
